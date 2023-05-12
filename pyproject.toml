@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "finance-bot"
+version = "0.1.0"
+description = "My first financial bot."
+authors = ["ku4umid3e"]
+readme = "README.md"
+packages = [{include = "finance_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.3"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
